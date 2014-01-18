@@ -163,6 +163,11 @@ section {
 	background-color: #000;
 	background-position: top center;
 	background-attachment: fixed;
+	/* Fade i bildspelet */
+	transition: cubic-bezier(x1,y1,x2,y2);
+	transition-property: background;
+	transition-timing-function: cubic-bezier(x1,y1,x2,y2);
+	transition-duration: 2s;
 	}
 
 
